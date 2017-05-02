@@ -1,0 +1,259 @@
+/*****************************
+Student name:SUSHANT LOURENCO
+Student ID: 16442890
+******************************/
+
+
+body {
+    font-family: 'Roboto';
+    text-align: center;
+    }
+
+/*------------------------------------START OF INDEX PAGE-------------------------------------------------------*/
+
+/*********************************Menu Bar *********************************************/
+.nav {
+   background-color: rgba(240, 240, 240, 0.5);
+   text-align: center;
+   }
+
+/************************Button of menu bar ********************************************/
+.button {
+  display: inline-block;
+  font-weight: 800;
+  line-height: 40px;
+  min-width: 10em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+}
+
+.button:hover {
+    color: grey;
+  }
+
+/************************Index page background image *************************************/
+.home {
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-image: url(../images/shards.jpg);
+   }
+
+/********************************lINK TO BIO***********************************/
+.quote{
+   margin-top: 23%;
+   color: white;
+   text-transform: uppercase;
+   }
+
+li{
+  list-style-type: none;
+  }
+
+span{
+   line-height: 0.5;
+   }
+
+.button-1 {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+   display: inline-block;
+   line-height: 40px;
+   min-width: 150px;
+   box-shadow: inset 0 0 0 3px #ffffff;
+   }
+
+.button-1:hover {
+   color: grey;
+   }
+
+/********************************************END TO LINK TO BIO*****************************************/
+
+/*--------------------------------------END OF INDEX PAGE-----------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------START OF GRID PAGE---------------------------------------------------------------------------*/
+
+/**********************************Title **************************************/
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px;
+    background: rgb(96, 125, 139);
+    color: rgb(202, 238, 255);
+}
+/******************************Grid-Layout For Images****************************/+++
+.grid-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.grid-images {
+      width: 98%;
+      height:auto;
+      }
+
+/******************************TABLE TO HOLD IMAGES****************************/
+table {
+   flex-direction: row;
+   }
+
+tr{
+  justify-content: center;
+  width: 40%;
+  line-height: 100px;
+  }
+/*--------------------------------------END OF GRID PAGE--------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------START BIO-PAGE----------------------------------------------------------------------------*/
+.pic-resize{
+  width: 75.5%;
+  height:20%;
+  }
+
+.middle {
+  margin: auto;
+  max-width: 63em;
+  }
+
+/***********************************INFORMATION ADJUSTMENT TO LEFT OF WRAPPER*****************************/
+.info{
+  text-align: left;
+  }
+
+p{
+  font-size:1.2em;
+  }
+
+/**************************************************************************************/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    }
+
+.main {
+    padding: 1em;
+    background: rgb(187, 179, 135);
+    text-align: center;
+  }
+.image{
+   width: 100%;
+   height:100%;
+ }
+
+
+
+/***********************************FORMS *******************************/
+.aside {
+   padding: 0.5em;
+   text-align: center;
+   background:rgb(224, 220, 199);
+  }
+
+.form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.msg{
+  margin: 1.5em;
+  padding: 1em;
+ font-family: 'Roboto';
+ }
+
+.submit{
+   width: 20%;
+   margin: 1.5em;
+   padding: 0.3em;
+   border: none;
+   box-shadow: inset 0 0 0 2px #ffffff;
+}
+
+.submit:hover {
+background: white;
+}
+/*----------------------------------------------END OF CONTACT PAGE-----------------------------------------------------*/
+
+
+/*----------------------------------------------FOOTER SAME ALL PAGES----------------------------------------------------*/
+.footer {
+  padding: 1em;
+  background: rgb(27, 83, 110);
+  text-align: center;
+}
+
+.footer-fix{
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #D3D3D3;
+   }
+
+
+/*--------------------------------------------------SOCIAL MEDIA ICON--------------------------------------------------------*/
+.social {
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+}
+
+.fa {
+  color:black;
+}
+
+.fa:hover {
+  color: #696969;
+}
+
+/*----------------------------------------------END OF FOOTER SAME ALL PAGES------------------------------------------------*/
+
+@media (max-width: 30em) {
+  .main {
+    flex: 1 0 auto;
+  }
+}
+
+/*******************************************ADJUST THE SCREEN*************************************************/
+@media (min-width: 30em) {
+.nav {
+   display: block;
+ }
+
+.wrapper {
+    flex-direction: row;
+  }
+
+.main {
+   flex: 1 1 auto;
+ }
+
+.aside{
+  width: 100%;
+ }
+}
+
+/*-------------------------------------------------REFERENCES LINK----------------------------------------------------------------------*/
+/* Sources
+All images on the displayed site belong to me,I have photographed them.
+1. Coulter Smith, L. (2016) Flex layout example. Available at: https://codepen.io/lizcoultersmith/pen/xEoYQv (Accessed: 22 April 2017).
+2.Font Awesome Larger Icons. http://fontawesome.io/examples/ (Accessed: 22 April 2017).
+3. Rose, T. (2016) HTML form example. Available at: http://codepen.io/UoN-ThomasRose/pen/NbYrGj (Accessed: 22 April 2017).
+*/
